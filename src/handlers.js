@@ -21,11 +21,9 @@ export const handleAddFeed = (e, state, i18nInstance) => {
       .then((rss) => {
         state.feeds.unshift(rss.feed);
         state.posts = [...rss.posts, ...state.posts];
-
         state.form.state = 'success';
 
-        updateRss
-      (link, state);
+        updateRss(link, state);
 
         e.target.reset();
       })
@@ -58,11 +56,8 @@ export const handleSelectLanguage = (e, state, i18nInstance) => {
 
 export const handleViewPost = (post) => {
   document.body.classList.add('modal-open');
-
   document.querySelector('.modal-title').textContent = post.title;
-
   document.querySelector('.modal-body').innerHTML = post.desc;
-
   document.querySelector('.full-article').href = post.url;
 
   const modal = document.querySelector('#modal');
