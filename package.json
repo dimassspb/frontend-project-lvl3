@@ -1,5 +1,5 @@
 {
-  "name": "frontend-project-lvl3",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/dimassspb/frontend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/dimassspb/frontend-project-lvl3/actions)",
   "main": "src/init.js",
@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/dimassspb/frontend-project-lvl3#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "i18next": "^20.2.2",
     "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "on-change": "^2.2.3",
     "popper.js": "^1.16.1",
     "yup": "^0.32.9"
   },
