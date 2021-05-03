@@ -86,7 +86,7 @@ const render = (state, i18nInstance) => {
 
   const fullArticleButton = document.querySelector('.full-article');
   const closeButtons = document.querySelectorAll('[data-dismiss="modal"]');
-
+console.log(closeButtons);
   fullArticleButton.textContent = i18nInstance.t('buttons.readArticle');
   closeButtons[1].textContent = i18nInstance.t('buttons.close');
 

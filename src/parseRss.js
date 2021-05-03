@@ -39,6 +39,6 @@ export default (link, content) => {
     desc,
     url: link,
   };
-
+  
   return result;
 };
