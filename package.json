@@ -1,0 +1,39 @@
+{
+  "name": "frontend-project-lvl3",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/dimassspb/frontend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/dimassspb/frontend-project-lvl3/actions)",
+  "main": "src/init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimassspb/frontend-project-lvl3.git"
+  },
+  "author": "Dmitrii Isakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimassspb/frontend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/dimassspb/frontend-project-lvl3#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "html-webpack-plugin": "^4.5.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
