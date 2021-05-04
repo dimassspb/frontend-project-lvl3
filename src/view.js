@@ -1,6 +1,6 @@
 import onChange from 'on-change';
 
-import { handleViewPost, handleCloseModal } from './handlers.js';
+import { handleViewPost, handleCloseModal } from './handlers';
 
 const buildPosts = (state, posts, i18nInstance) => {
   const postsContainer = document.querySelector('.posts');
@@ -86,7 +86,6 @@ const render = (state, i18nInstance) => {
 
   const fullArticleButton = document.querySelector('.full-article');
   const closeButtons = document.querySelectorAll('[data-dismiss="modal"]');
-console.log(closeButtons);
   fullArticleButton.textContent = i18nInstance.t('buttons.readArticle');
   closeButtons[1].textContent = i18nInstance.t('buttons.close');
 
